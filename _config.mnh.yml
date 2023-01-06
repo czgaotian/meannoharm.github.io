@@ -1,0 +1,31 @@
+favicon: images/favicon.png
+
+menu:
+  主页: /
+  关于: about
+
+copyright:
+  name: Gao
+
+license:
+  name: CC-BY-NC-SA 4.0
+  url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+rss:
+  path: atom.xml
+
+mathjax:
+  enable: false
+
+katex:
+  enable: true
+
+utterances:
+  enable: true
+  repo: meannoharm/meannoharm.github.io
+  issueTerm: pathname
+  theme: github-light
+
+analytics:
+  enable: true
+  gtag: G-1J53LZ1GGM
