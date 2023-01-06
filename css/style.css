@@ -66,20 +66,17 @@ a {
 }
 .footer-container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   margin-bottom: 20px;
-}
-.footer-meta {
-  font-size: 11px;
+  font-size: 12px;
   color: #999;
   width: 100%;
-  margin: 0 10px;
-  display: inline-flex;
 }
-.footer-meta a {
+.footer-container a {
   color: #777;
 }
-.footer-meta a:hover {
+.footer-container a:hover {
   color: #555;
 }
 .footer-meta > div:not(:last-child) {
