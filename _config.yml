@@ -103,3 +103,16 @@ theme: mnh
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ""
+
+algolia:
+  chunkSize: 5000
+  indexName: "blog"
+  fields:
+    - content:strip:truncate,0,500
+    - excerpt:strip
+    - gallery
+    - permalink
+    - photos
+    - slug
+    - tags
+    - title
