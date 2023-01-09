@@ -1,0 +1,12 @@
+<% if(is_tag()){ %>
+  <%- partial('archive', {pagination: config.tag, index: true}) %>
+<% } else { %>
+    <div class="tag-list">
+      <% site.tags.forEach(tag => { %>
+        <div class="tag-item">
+          <a href="<%-url_for(tag.path)%>"><%- item.tag%></a>
+          <span >(<%-tag.length%>)</span>
+        <div/>
+      <% }) %>
+    </div>
+<% } %>

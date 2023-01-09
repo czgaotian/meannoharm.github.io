@@ -2,10 +2,12 @@ favicon: images/favicon.png
 
 menu:
   主页: /
+  标签: tag
   关于: about
 
-copyright:
+author:
   name: Gao
+  url: https://github.com/meannoharm
 
 license:
   name: CC-BY-NC-SA 4.0
@@ -13,12 +15,6 @@ license:
 
 rss:
   path: atom.xml
-
-mathjax:
-  enable: false
-
-katex:
-  enable: true
 
 utterances:
   enable: true

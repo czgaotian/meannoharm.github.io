@@ -9,8 +9,16 @@
         <%= config.title %>
     </title>
     <%- css('css/style') %>
-    <%- css('fontawesome/css/fontawesome.min') %>
-    <%- css('fontawesome/css/brands.min') %>
-    <%- css('fontawesome/css/solid.min') %>
-    <%- partial('partial/scripts/analytics.ejs') %>
+    <% if (theme.analytics && theme.analytics.enable) { %> 
+        <% if (theme.analytics.gtag) { %>
+            <script async src="https://www.googletagmanager.com/gtag/js?id=<%= theme.analytics.gtag %>"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '<%= theme.analytics.gtag %>');
+            </script>
+        <% } %>
+    <% } %>
+    <script src="https://kit.fontawesome.com/1258cabd12.js" crossorigin="anonymous"></script>
 </head>

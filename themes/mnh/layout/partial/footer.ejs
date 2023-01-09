@@ -1,8 +1,9 @@
 <footer>
     <div class="footer-container">
-        <% if (theme.copyright) { %>
-            <div class="footer-meta-copyright">
-                Based on <a href="https://hexo.io">Hexo</a> developed with ❤️ by <%= theme.copyright.name || config.author %>.
+        <% if (theme.author) { %>
+            <div class="footer-meta-author">
+                Based on <a href="https://hexo.io">Hexo</a> developed with ❤️ by 
+                <a href="<%- theme.author.url %>"><%= theme.author.name || config.author %></a>.
             </div>
         <% } %>
         <% if (theme.license) { %>
