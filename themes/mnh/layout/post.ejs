@@ -8,9 +8,14 @@
             <div class="post-meta-item">
                 <i class="fa-solid fa-clock"></i><span class="post-date"><%= date(page.date, 'YYYY-MM-DD HH:mm:ss') %></span>
             </div>
-            <div class="post-meta-item">
-                <i class="fa-solid fa-tag"></i>
-            </div>
+            <% if (page.tags && page.tags.length) { %>
+                <div class="post-meta-item">
+                    <i class="fa-solid fa-tag"></i>
+                    <% page.tags.forEach((tag) => { %>
+                        <a href="<%- url_for(tag.path) %>"><%- tag.name %></a>
+                    <% }); %>
+                </div>
+            <% } %>
         </div>
         <% } %>
         <div class="post-content">
