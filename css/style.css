@@ -84,7 +84,7 @@ a {
   display: flex;
   flex-direction: column;
   color: #555;
-  font-size: 16px;
+  font-size: 14px;
   width: 100%;
   inline-height: 1.5;
 }
@@ -94,10 +94,11 @@ a {
 }
 .post-container a:not(.nonstyle):hover {
   color: #2f69b3;
+  text-decoration: underline;
 }
 .post-container .post-meta-container {
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 1em;
   color: #999;
   display: flex;
   align-items: center;
@@ -106,7 +107,10 @@ a {
   margin-right: 16px;
 }
 .post-container .post-meta-container .post-meta-item i {
-  margin-right: 12px;
+  margin-right: 8px;
+}
+.post-container .post-meta-container .post-meta-item a {
+  color: #999;
 }
 pre code.hljs {
   display: block;
