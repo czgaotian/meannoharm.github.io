@@ -8,10 +8,11 @@
   width: 100%;
 }
 .footer-container a {
-  color: #777;
+  color: #999;
+  font-weight: bold;
 }
 .footer-container a:hover {
-  color: #555;
+  color: #777;
 }
 .footer-meta > div:not(:last-child) {
   margin-right: 5px;
