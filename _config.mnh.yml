@@ -2,7 +2,7 @@ favicon: images/favicon.png
 
 menu:
   主页: /
-  标签: tag
+  # 标签: tag
   关于: about
 
 author:
