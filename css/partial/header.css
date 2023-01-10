@@ -1,5 +1,6 @@
 .header-container {
-  margin-top: 20px;
+  margin-top: 28px;
+  margin-bottom: 28px;
   display: flex;
   justify-content: center;
 }
@@ -14,7 +15,7 @@
   display: inline-flex;
 }
 .header-menu-list li:not(:last-child) {
-  margin-right: 15px;
+  margin-right: 16px;
 }
 @media screen and (max-width: 600px) {
   .header-menu-list ul {

@@ -13,11 +13,9 @@ a {
   display: flex;
   flex-direction: column;
 }
-.body-container > div:not(:last-child) {
-  margin-bottom: 20px;
-}
 .header-container {
-  margin-top: 20px;
+  margin-top: 28px;
+  margin-bottom: 28px;
   display: flex;
   justify-content: center;
 }
@@ -32,7 +30,7 @@ a {
   display: inline-flex;
 }
 .header-menu-list li:not(:last-child) {
-  margin-right: 15px;
+  margin-right: 16px;
 }
 @media screen and (max-width: 600px) {
   .header-menu-list ul {
@@ -65,7 +63,8 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 20px;
+  margin-top: 28px;
+  margin-bottom: 28px;
   font-size: 12px;
   color: #999;
   width: 100%;
