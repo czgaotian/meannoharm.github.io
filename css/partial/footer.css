@@ -13,6 +13,7 @@
 }
 .footer-container a:hover {
   color: #777;
+  text-decoration: underline;
 }
 .footer-meta > div:not(:last-child) {
   margin-right: 5px;
