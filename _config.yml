@@ -51,9 +51,9 @@ highlight:
   wrap: true
   hljs: false
 prismjs:
-  enable: true
+  enable: false
   preprocess: false
-  line_number: false
+  line_number: true
   tab_replace: ''
 
 # Home page setting
