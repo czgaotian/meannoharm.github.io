@@ -1,0 +1,3 @@
+[submodule "themes/mnh"]
+	path = themes/mnh
+	url = git@github.com:meannoharm/hexo-theme-mnh.git
