@@ -872,8 +872,10 @@ p {
   overflow: hidden; }
   #colophon a {
     color: #aaa; }
-  #colophon .footer-author {
-    margin: 0 4px; }
+  #colophon .footer-item {
+    margin-right: 4px; }
+    #colophon .footer-item:last-child {
+      margin-right: 0; }
 
 .archive {
   margin: 2em 0px;
