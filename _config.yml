@@ -98,6 +98,8 @@ deploy:
   type: ""
 
 algolia:
+  applicationID: 'S56V8C71E7'
+  apiKey: '1f02ed7e037384f75ec23d37c076fbd3'
   chunkSize: 5000
   indexName: "blog"
   fields:
@@ -111,7 +113,7 @@ algolia:
     - title
 
 archive_generator:
-    per_page: 0
-    yearly: false
-    monthly: false
-    daily: false
+  per_page: 0
+  yearly: false
+  monthly: false
+  daily: false
