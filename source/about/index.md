@@ -18,5 +18,4 @@ date: 2023-01-09 17:09:01
 #### 联系方式
 
 - GitHub: [meannoharm](https://github.com/meannoharm)
-- 邮箱: Y3pnYW90aWFuMUBnbWFpbC5jb20=
-- MaplyStory: Rossciaco@Reboot/Bishop
+- 邮箱: m@pua.al
